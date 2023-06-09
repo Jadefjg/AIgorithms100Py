@@ -56,5 +56,15 @@ if __name__=="__main__":
         fib2 = fib1 + fib2  # 第4个月的兔子对数
         i += 1
 
+# 兔子总数规律 类似于斐波拉契函数
+a = 0
+b = 1
+while b < 100:
+    print(b, end=",")
+    a, b = b, a+b
+
+    print(a,b)
+
+
 
 
