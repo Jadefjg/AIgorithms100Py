@@ -41,6 +41,25 @@ for i in range(1,a+1):
     s = s*i
     print(s)
 
+# 幂递归：计算 x 的 n次方，例如：3**4 = 81
+def mi(x,n):
+    if n == 0:
+        return 1
+    else:
+        return x*mi(x,n-1)
+
+print(mi(3,4))
 
 
 
+
+def hanoi(n, a, b, c):
+    '''汉诺塔问题'''
+    if n == 1:
+        print(a, '-->', c)
+    else:
+        hanoi(n - 1, a, c, b)
+        print(a, '-->', c)
+        hanoi(n - 1, b, a, c)
+
+hanoi(5, 'A', 'B', 'C')
