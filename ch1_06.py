@@ -74,17 +74,17 @@ if __name__=="__main__":
 
 
 """
-下面介绍字典的常用操作方法。
-·dict.clear()：清空字典，也就是删除字典中的所有元素。
-·dict.copy()：复制字典，返回一个具有相同键/值对的新字典，是浅复制。
-·dict.fromkeys(seq[,value])：创建一个新字典，以序列seq中的元素作为字典的键，value为字典所有键对应的初始值。
-·dict.get(key,default=None)：获取键key的value值，如果值不存在，就返回默认值。
-·dict.items()：以列表的形式返回可遍历的（键/值）元组数组。
-·dict.keys()：以列表的形式，返回字典中的所有键。
-·dict.pop(key)：删除键key。
-·dict.update(dict2)：更新字典元素，用于把字典dict2的键/值对更新到dict中。
-·dict.values()：以列表的形式返回字典中的所有值。
-
+介绍字典的常用操作方法：
+    ·dict.clear()：清空字典，也就是删除字典中的所有元素。
+    ·dict.copy()：复制字典，返回一个具有相同键/值对的新字典，是浅复制。
+    ·dict.fromkeys(seq[,value])：创建一个新字典，以序列seq中的元素作为字典的键，value为字典所有键对应的初始值。
+    ·dict.get(key,default=None)：获取键key的value值，如果值不存在，就返回默认值。
+    ·dict.items()：以列表的形式返回可遍历的（键/值）元组数组。
+    ·dict.keys()：以列表的形式，返回字典中的所有键。
+    ·dict.pop(key)：删除键key。
+    ·dict.update(dict2)：更新字典元素，用于把字典dict2的键/值对更新到dict中。
+    ·dict.values()：以列表的形式返回字典中的所有值。
+    
 """
 
 
