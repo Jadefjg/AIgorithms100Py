@@ -3,7 +3,7 @@ import re
 
 def expand_string(input_str):
     # pattern = r'(\w+)\[([^\[\]]+)\](\w+)'
-    pattern = re.compile(ur'[\u4e00-\u9fa5]+')
+    pattern = re.compile(r'[\u4e00-\u9fa5]+')
     match = re.search(pattern, input_str)
 
     if match:
