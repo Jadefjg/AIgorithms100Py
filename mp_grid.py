@@ -7,7 +7,6 @@
 """
 
 # 例如：给定以下 grid：
-
 grid = [
     [1,3,1],
     [1,5,1],
@@ -16,6 +15,7 @@ grid = [
 
 
 def mp(grid):
+
     if not grid:
         return 0
 
@@ -39,3 +39,5 @@ def mp(grid):
     return dp[m-1][n-1]
 
 
+if __name__=="__main__":
+    print(mp(grid))
