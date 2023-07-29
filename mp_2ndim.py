@@ -39,3 +39,24 @@ def find(target,array):
             i += 1
     return False
 
+
+# 方法3：
+def find_number(matrix, target):
+    if not matrix or len(matrix[0]) == 0:
+        return False
+
+    rows = len(matrix)
+    cols = len(matrix[0])
+
+    row = 0
+    col = cols - 1
+
+    while row < rows and col >= 0:
+        if matrix[row][col] == target:
+            return True
+        elif matrix[row][col] > target:
+            col -= 1
+        else:
+            row += 1
+
+    return False

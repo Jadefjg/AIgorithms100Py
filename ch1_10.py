@@ -70,7 +70,7 @@ if __name__=='__main__':
         source = int(input())
         print("转换后的数制是：", end='')
         object = int(input())
-        print("转换后的数是：", end=’’)
+        print("转换后的数是：", end='')
         decimal_num = source_to_decimal(temp, source)
         decimal = decimal_to_object(decimal_num, object)
         output(decimal)
