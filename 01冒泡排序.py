@@ -31,5 +31,3 @@ def bubble_sort(nums):
 s = [3,44,28,5,25,36,2,87,5]
 print(bubble_sort(s))
 
-
-

@@ -30,5 +30,3 @@ print(select_sort(s))
 
 
 
-
-

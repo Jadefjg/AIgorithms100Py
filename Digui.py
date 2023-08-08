@@ -52,7 +52,6 @@ print(mi(3,4))
 
 
 
-
 def hanoi(n, a, b, c):
     '''汉诺塔问题'''
     if n == 1:
