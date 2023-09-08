@@ -8,10 +8,10 @@
 第一类：0~9 间字符。0~127 之间字符型与整型是可以通用的，得到的差即为字符ch对应的数字。
 第二类：A ~ Z 间字符
 
-int(x)：将其他类型转换成数字
-ord(x)：将字符转换成对应的 Unicode 码
-str(x)：将其他类型转换成字符串
-char(x)：将十进制数字转换成对应的字符
+        int(x)：将其他类型转换成数字
+        ord(x)：将字符转换成对应的 Unicode 码
+        str(x)：将其他类型转换成字符串
+        char(x)：将十进制数字转换成对应的字符
 
 """
 
@@ -63,7 +63,7 @@ def output(decimal):
 if __name__=='__main__':
     MAXCHAR = 101       # 允许的最大字符串长度
     flag = 1            # 存储是否退出程序的标志
-    while flag:  # 利用输入的flag值控制循环是否结束
+    while flag:         # 利用输入的flag值控制循环是否结束
         print("转换前的数是：", end='')
         temp = input()
         print("转换前的数制是：", end='')
@@ -76,10 +76,4 @@ if __name__=='__main__':
         output(decimal)
         print("继续请输入1,否则输入0：")
         flag = int(input())
-
-
-
-
-
-
 
