@@ -31,3 +31,18 @@ def bubble_sort(nums):
 s = [3,44,28,5,25,36,2,87,5]
 print(bubble_sort(s))
 
+
+"""
+# 冒泡排序
+def selectionSort(arr):
+    # 记录最小数的索引
+    for i in range(len(arr) -1):
+        minIndex = i
+        for j in range(i+1,len(arr)):
+            if arr[j] < arr[minIndex]:
+                minIndex = j
+        if i != minIndex:
+            arr[i],arr[minIndex] = arr[minIndex],arr[i]
+    return arr
+
+"""
