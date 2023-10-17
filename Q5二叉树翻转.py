@@ -43,4 +43,4 @@ while queue:
         queue.append(node.right)
 
 
-# 输出结果应为：4 7 2 9 6 3 1
+#  输出结果应为：4 7 2 9 6 3 1
