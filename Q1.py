@@ -1,7 +1,6 @@
 
 """
 U = arr[1]×arr[2]×(1÷arr[3])×arr[4]×...×arr[n-1] × (1÷arr[n]) if n is odd
-
 U = arr[1]×arr[2]×(1÷arr[3])×arr[4]×...×(1÷arr[n-1]) × arr[n] if n is even
 """
 
@@ -39,6 +38,7 @@ def rearrange_array(arr):
         merged_array.append(last_element)
 
     return merged_array
+
 
 # 示例用法
 arr = [4, -2, 0, 1, 5, -3]
